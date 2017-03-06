@@ -10,7 +10,6 @@
 
 body {
     background-color: #fff;
-    width: 1280px;
     margin: 0 auto;
 }
 
@@ -45,6 +44,13 @@ nav ul li a {
 nav img {
     padding: 10px 0;
     margin-left: 10px;
+}
+
+/************************/
+
+/*KARTTA*/
+
+#kartta {
 }
 
 /************************/
