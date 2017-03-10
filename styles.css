@@ -48,19 +48,25 @@ nav img {
 
 /************************/
 
-/*KARTTA*/
+/*POP UP IKKUNA*/
 
-#kartta {
-}
+/*#popup {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border: 1px solid #000;
+}*/
 
 /************************/
 
 /*TEKIJAT SIVU*/
 
 #tekijat {
-    width: 1180px;
     background: url(img/wallpaper.jpeg);
     padding: 50px;
+    height: 1000px;
 }
 
 .naama {
