@@ -48,18 +48,13 @@ nav img {
 
 /************************/
 
-/*POP UP IKKUNA*/
-
-/*#popup {
+#content {
+    position: absolute;
+    top: 100px;
+    left: 100px;
     width: 800px;
     height: 600px;
-    position: absolute;
-    top: 25%;
-    left: 30%;
-    border: 1px solid #000;
-}*/
-
-/************************/
+}
 
 /*TEKIJAT SIVU*/
 
