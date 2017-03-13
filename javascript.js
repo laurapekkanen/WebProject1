@@ -6,5 +6,5 @@ $(function() {
 });
 
 $(document).ready(function(){
-    $("#kartta").draggable({stack:"div"});
+    $("main").draggable({stack:"div"});
 })

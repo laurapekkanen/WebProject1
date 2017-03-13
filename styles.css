@@ -56,6 +56,13 @@ nav img {
     height: 600px;
 }
 
+main {
+    background-image: url(img/kartta.png);
+    background-repeat: repeat;
+    width: 3294px;
+    height: 1614px;
+}
+
 /*TEKIJAT SIVU*/
 
 #tekijat {
