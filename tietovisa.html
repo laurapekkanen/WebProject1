@@ -3,31 +3,27 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="UTF-8">
-        <title>Kartta</title>
         <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+        <title>Kartta</title>
     </head>
     <body>
         <header>
              <!-- NAVI ALKAA -->
             <nav>
                 <ul>
-                    <li id="active"><a class="current" href="#">KARTTA</a></li>
-                    <li><a href="tietovisa.html">TIETOVISA</a></li>
+                    <li><a href="index.html">KARTTA</a></li>
+                    <li id="active"><a class="current" href="#">TIETOVISA</a></li>
                     <li><a href="tekijat.html">TEKIJÄT</a></li>
+                    <img src="img/jyvajemmarit_transparent_white.png" alt="logo" width="60" height="60">
                 </ul>
-                <img src="img/jyvajemmarit_transparent_white.png" alt="logo" width="60" height="60">
             </nav>
-
             <!-- NAVI LOPPUU -->
         </header>
-        <div id="map"></div>
+        <!-- TIETOVISA -->
+        <div id="questionDiv"></div>
         <!-- jQuery -->
         <script src="jquery-3.1.1.min.js"></script>
         <!--OMA JS-->
         <script src="javascript.js"></script>
-        <!-- Kartta -->
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXZY5-yNaV3xcLtpbWe0CLMGyqvB36N0A&callback=initMap">
-    </script>
     </body>
 </html>
