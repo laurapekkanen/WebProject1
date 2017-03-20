@@ -48,19 +48,17 @@ nav img {
 
 /************************/
 
-#content {
+/*#content {
     position: absolute;
     top: 100px;
     left: 100px;
     width: 800px;
     height: 600px;
-}
+}*/
 
 main {
     background-image: url(img/kartta.png);
     background-repeat: repeat;
-    width: 3294px;
-    height: 1614px;
 }
 
 /*TEKIJAT SIVU*/
@@ -71,8 +69,46 @@ main {
     height: 1000px;
 }
 
-.naama {
+#naama {
     margin: 0 auto;
     width: 200px;
 }
+
+/*kääntyminen*/
+#naama img {
+	-webkit-transform: rotate(0deg) scale(1.4);
+	transform: rotate(0deg) scale(1.0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#naama:hover img {
+	-webkit-transform: rotate(15deg) scale(1);
+	transform: rotate(15deg) scale(1);
+}
+
+/*KARTTA*/
+
+#map{
+     height: 100%;
+    clear: both;
+
+      }
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+/*pop up*/
+
+#joo {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #999;
+    background-color: #fff;
+}
+
+
 
