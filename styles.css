@@ -70,24 +70,12 @@ header nav img {
     height: 100vh; /*venyy ikkunan mukaan*/
 }
 
-/*KÄÄNTYMINEN*/
-
-.naama img {
-	-webkit-transform: rotate(0deg) scale(1.4);
-	transform: rotate(0deg) scale(1.0);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.naama:hover img {
-	-webkit-transform: rotate(15deg) scale(1);
-	transform: rotate(15deg) scale(1);
-}
-
 .naama {
-    margin: 0 auto;
-    width: 1000px;
+    /*margin: 0 auto;*/
+    width: 50%;
     overflow: hidden;
     height: auto;
+    padding: 50px;
 }
 
 #tekijat li {
@@ -182,7 +170,7 @@ img.close {
 #joo {
     width: 50%;
     height: 300px;
-    margin: 0 auto;
+    margin: 100px auto;
     border: 2px solid #999;
     background-color: #fff;
 }

@@ -1,0 +1,214 @@
+{
+	"info":"Jyväskylässä olevat paikat",
+	"paikat": [
+		{
+			"Tyyppi":"Klubi/baari",
+			"lat":62.243778,
+			"lng":25.749827,
+			"Paikka":"Escape Club",
+			"Osoite":"Kauppakatu 32, 40100 Jyväskylä Finland",
+            "Puh":"0300 870 444",
+            "Ajat":"Ke - Su 22-04",
+			"Webbi":"http://www.ravintola.fi/ravintola/escape/",
+			"Kuvaus":"Jos sinun tekee mieli lähteä vetää märkää niin Escape on juuri sopiva paikka sinulle. Suurin osa Jyväskylän opiskelija bileistä pidetään Escapessa"
+		},
+        {
+            "Tyyppi":"Klubi/baari",
+			"lat":62.2431048,
+			"lng":25.748024999999984,
+			"Paikka":"Bra2",
+			"Osoite":"Kauppakatu 35, 40100 Jyväskylä Finland",
+            "Puh":"010 7675560",
+            "Ajat":"Ke - La 22-04",
+			"Webbi":"https://www.raflaamo.fi/fi/jyvaskyla/bra%C2%B2",
+			"Kuvaus":"Bra2 on toinen Jyväskylässä sijaitseva yöklubi, jossa järjestetään opiskelija bileitä. Yleisesti järjestäjänä toimii JAMKO"
+        },
+		{
+            "Tyyppi":"Kauppa/ruokala",
+			"lat":62.242581,
+			"lng":25.747785,
+			"Paikka":"Alko",
+			"Osoite":"Asemakatu 8, 40100 Jyväskylä, Finland",
+            "Puh":"020 692771",
+            "Ajat":"Ma - Pe 9-20, La 9-18",
+			"Webbi":"https://www.alko.fi/en/shops-services/2491/",
+			"Kuvaus":"Keskustan alko, hyvä paikka käydä ostamassa menovettä."
+        },
+        {
+            "Tyyppi":"Kauppa/ruokala",
+			"lat":62.242506,
+			"lng":25.746127,
+			"Paikka":"Keskustan MC",
+			"Osoite":"Kauppakatu 29, 40100 Jyväskylä, Finland",
+            "Puh":"020 692771",
+            "Ajat":"Ma - Su 9-23",
+			"Webbi":"http://www.mcdonalds.fi/fi.html",
+			"Kuvaus":"Keskustan mäkkäri. Helppoa ruokaa läheltä, on yöllä auki kun ihmiset tulee baarista nälissään, tämän lisäksi ruokala tarjoaa ilmaisen wi-fi:n"
+        },
+        {
+            "Tyyppi":"Kauppa/ruokala",
+			"lat":62.242506,
+			"lng":25.746127,
+			"Paikka":"Keskustan Subway",
+			"Osoite":"Kauppakatu 27, 40100 Jyväskylä, Finland",
+            "Puh":"014 3102111",
+            "Ajat":"Ma - Ti 8-22, Ke - La 08-05, Su 11-22",
+			"Webbi":"http://www.subway.fi/fi/ravintolat/jyvaskyla",
+			"Kuvaus":"Keskustan Subway. Jos haluaa vaihtelua mäkki ruualle, suosittelen subwayta"
+        },
+        {
+            "Tyyppi":"Kauppa/ruokala",
+			"lat":62.242506,
+			"lng":25.751219,
+			"Paikka":"Amarillo Jyväskylä",
+			"Osoite":"Puistokatu 2, 40100 Jyväskylä, Finland",
+            "Puh":"010 7675510",
+            "Ajat":"Ma - Ti 11-22, Ke - To 11-23, Pe - La 11-01, Su 12-22",
+			"Webbi":"https://www.raflaamo.fi/fi/jyvaskyla/amarillo-jyvaskyla",
+			"Kuvaus":"Jyväskylän Amarillo. Hyvä paikka viedä tyttöystäväsi syömään tai vaikka kavereiden kanssa viettämään iltaa"
+        },
+        {
+            "Tyyppi":"Kauppa/ruokala",
+			"lat":62.239857,
+			"lng":25.742059,
+			"Paikka":"Kebab House",
+			"Osoite":"Kauppakatu 14, 40100 Jyväskylä, Finland",
+            "Puh":"014 212925",
+            "Ajat":"Ma - Pe 10-22, La 11-22, Su 12-22",
+			"Webbi":"http://www.kebabhouse.fi",
+			"Kuvaus":"Kebab House, Jyväskylän paras kebab."
+        },
+        {
+			"Tyyppi":"Klubi/baari",
+			"lat":62.243546,
+			"lng":25.74942,
+			"Paikka":"Revolution",
+			"Osoite":"Kauppakatu 30, 40100 Jyväskylä, Finland",
+            "Puh":"010 7675483",
+            "Ajat":"Ma - To 10.30 - 23, Pe - La 11-2, Su 12-23",
+			"Webbi":"https://www.raflaamo.fi/fi/jyvaskyla/revolution",
+			"Kuvaus":"Bar Revolution, hyvää ruokaa ja hyvä paikka viettää iltaa ja juoda muutamat"
+		},
+        {
+			"Tyyppi":"Klubi/baari",
+			"lat":62.243510,
+			"lng":25.74942,
+			"Paikka":"Freetime",
+			"Osoite":"Kauppakatu 30, 40100 Jyväskylä, Finland",
+            "Puh":"050 5130458",
+            "Ajat":"Ma - La 21-04, Su 23-04",
+			"Webbi":"https://www.raflaamo.fi/fi/jyvaskyla/revolution",
+			"Kuvaus":"Freetime on rento rock-henkinen yökerho keskellä Jyväskylää. JAMKO järjestää Pubivisat täällä"
+		},
+        {
+			"Tyyppi":"Klubi/baari",
+			"lat":62.243763,
+			"lng":25.747592,
+			"Paikka":"Passion",
+			"Osoite":"Kauppalaispiha 3, 40100 Jyväskylä, Finland",
+            "Puh":" 010 423 3266",
+            "Ajat":"Ma 11-01, Ti - Pe 11-02, La 12-02, Su 12-01",
+			"Webbi":"http://www.ravintola.fi/ravintola/passion-bar-food/",
+			"Kuvaus":"Passion on fiilikseltään kesäisen kevyt, mutta tarjonnaltaan tuhti. Passionissa on hyvä viettää iltaa ja pelata baarin tarjoamia lautapelejä"
+		},
+         {
+			"Tyyppi":"Klubi/baari",
+			"lat":62.244067,
+			"lng":25.749153,
+			"Paikka":"Katse",
+			"Osoite":"Väinönkatu 26, 40100 Jyväskylä, Finland",
+            "Puh":"050 4344497",
+            "Ajat":"Ma - Su 18-04",
+			"Webbi":"http://www.katse.bar/",
+			"Kuvaus":"Katse on Jyväskylän keskustassa sijaitseva yökerho, joka jakautuu neljään erilaiseen osioon; pubiin, klubiin, discoon ja räppibaariin. Katseesta saa insinööriliiton kortilla alennusta!"
+		},
+        {
+			"Tyyppi":"Yleiset",
+			"lat":62.241622,
+			"lng":25.759731,
+			"Paikka":"Dynamo",
+			"Osoite":"Piippukatu 2, 40100 Jyväskylä, Finland",
+            "Puh":"020 7438100",
+            "Ajat":"Ma - Pe 7-18",
+			"Webbi":"https://www.jamk.fi/fi/Yhteystiedot/Lutakon-kampus/",
+			"Kuvaus":"Lutakossa sijaitseva ammatikorkeakoulun kampus"
+		},
+        {
+			"Tyyppi":"Yleiset",
+			"lat":62.251213,
+			"lng":25.743094,
+			"Paikka":"Pääkampus",
+			"Osoite":"Rajakatu 35, 40100 Jyväskylä, Finland",
+            "Puh":"020 7438100",
+            "Ajat":"Ma - Pe 7-18",
+			"Webbi":"https://www.jamk.fi/fi/Yhteystiedot/Paakampus-Rajakatu/",
+			"Kuvaus":"Rajakadulla sijaitseva ammattikorkeakoulun pääkampus"
+		},
+         {
+			"Tyyppi":"Yleiset",
+			"lat":62.237693,
+			"lng":25.734015,
+			"Paikka":"Jyväskylän yliopisto",
+			"Osoite":"Seminaarinkatu 15, 40014 Jyväskylä, Finland",
+            "Puh":"014 2601211",
+            "Ajat":"Ma - Pe 7-18",
+			"Webbi":"www.juy.fi",
+			"Kuvaus":"Jyväskylän yliopiston pääalue"
+		},
+         {
+			"Tyyppi":"Yleiset",
+			"lat":62.244917,
+			"lng":25.738959,
+			"Paikka":"Harjun stadion",
+			"Osoite":"Ihantolantie 1, 40720 Jyväskylä, Finland",
+            "Puh":"014 2664277",
+            "Ajat":"Ma - Su 8-21",
+			"Webbi":"http://www.jyvaskyla.fi/liikunta/ulkoliikuntapaikat/harjun_stadion",
+			"Kuvaus":"Jyväskylän yleisurheilukenttä, Harju stadioni on IAAF:n hyväksymä 2:n luokituksen stadion"
+		},
+        {
+			"Tyyppi":"Yleiset",
+			"lat":62.242809,
+			"lng":25.756131,
+			"Paikka":"Jyväskylän matkakeskus",
+			"Osoite":"Hannikaisenkatu 22, 40100 Jyväskylä, Finland",
+            "Puh":"020 7436830",
+            "Ajat":"24/7",
+			"Webbi":"http://www.jyvas-parkki.fi/",
+			"Kuvaus":"Jyväskylän matkakeskus, tänne saapuu junat sekä linja-autot"
+		},
+        {
+			"Tyyppi":"Yleiset",
+			"lat":62.238117,
+			"lng":25.72196,
+			"Paikka":"Synergia-areena",
+			"Osoite":"Rautpohjankatu 10, 40700 Jyväskylä, Finland",
+            "Puh":"014 2664321",
+            "Ajat":"Ma - Su 7-23",
+			"Webbi":"http://www.jyvaskyla.fi/liikunta/sisaliikuntapaikat/kilpajaahalli",
+			"Kuvaus":"Jyväskylän kilpajäähalli, täällä JYP pelaa kotipelinsä, sekä muuta oheis toimintaa"
+		},
+        {
+			"Tyyppi":"Yleiset",
+			"lat":62.238117,
+			"lng":25.72196,
+			"Paikka":"Keski-Suomen keskussairaala",
+			"Osoite":"Keskussairaalantie 19, 40620 Jyväskylä, Finland",
+            "Puh":"014 2691811",
+            "Ajat":"24/7",
+			"Webbi":"www.ksshp.fi",
+			"Kuvaus":"Jyväskylän keskussairaala, jos vaikka jotain käy tänne voi mennä"
+		},
+        {
+			"Tyyppi":"Klubi/baari",
+			"lat":62.243592,
+			"lng":25.748288,
+			"Paikka":"Hollywod Bowling",
+			"Osoite":"Kauppakatu 37, 40100 Jyväskylä, Finland",
+            "Puh":"010 4233269",
+            "Ajat":"Ma - To 15-24, Pe - La 15-02, Su 15-24",
+			"Webbi":"www.hollywoodbowling.fi",
+			"Kuvaus":"Hollywood Bowling & Billiards on huikea viihdekeidas ja koko perheen ajanviettokeskus"
+		}
+	]
+}

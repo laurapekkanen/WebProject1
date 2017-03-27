@@ -1,4 +1,5 @@
 //document ready
+
 //pop up
 $(function() {
 $("#trump").click(function(e) {
@@ -104,3 +105,10 @@ function showQuestion() {
 	}
 
 }
+
+//sound
+var audio = document.getElementByID("kohde");
+$("#trump").mouseenter (function(){
+                        audio.play();
+                        });
+audio.play();
