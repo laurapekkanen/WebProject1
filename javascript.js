@@ -5,10 +5,17 @@ $("#trump").click(function(e) {
         $("#content").load("pages/popup1.html");
     });
 });
-//close pop up
-$("img.close").click(function(e) {
-		$("#content").empty();
-	});
+$(function() {
+$("#trump2").click(function(e) {
+        $("#content").load("pages/popup2.html");
+    });
+});
+$(function() {
+$("#trump3").click(function(e) {
+        $("#content").load("pages/popup3.html");
+    });
+});
+
 //map
 function initMap() {
         var myLatLng = {lat: 62.242603, lng: 25.747257};
@@ -25,6 +32,7 @@ function initMap() {
           title: 'Hello World!'
         });
       }
+
 //quiz
 var questions = [];		// all questions
 var question; 			// current question asked
@@ -60,7 +68,7 @@ function showQuestion() {
 	if (questions.length == 0) {
 		//alert("Correct answers : " + correct + "/" + count);
         $("#questionDiv").append("<p class='question'>Result</p>");
-        $("#questionDiv").append("<p class='answer'>"+correct + "/" + count+"</p>");
+        $("#questionDiv").append("<p class='result'>"+correct + "/" + count+"</p>");
 		return;
 	}
 	// random index 0 <-> questions.length
@@ -81,10 +89,10 @@ function showQuestion() {
 				// add correct count
 				correct++;
 				$(this).css('background-color', 'green');
-				$(this).css('color', 'white');
+				$(this).css('color', 'black');
 			} else {
-				$(this).css('background-color', 'red');
-				$(this).css('color', 'white');
+				$(this).css('background-color', 'white');
+				$(this).css('color', 'black');
 			}
 			// remove asked question from array
 			questions.splice(questionIndex,1);
