@@ -101,13 +101,11 @@ function showQuestion() {
 			// console.log("length = " + questions.length);
 			// jump next question
 			setTimeout(showQuestion, SPEED);
-            body.css('background-image', 'url(img/Jyvaskyla_centrum.jpg)');
+            body.css('background-image', 'url(img/.jpg)');
 		});
 		$("#questionDiv").append(answer);
 
 	}
-
-
 
 }
 
