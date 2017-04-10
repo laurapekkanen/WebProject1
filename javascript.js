@@ -45,7 +45,7 @@ var SPEED = 1000;		// break between questions
 $("document").ready(function() {
 	// load json with jquery Ajax
 	$.ajax({
-		url: 'kysymykset.json',
+		url: 'data/kysymykset.json',
 		success: function(data) {
 			// called when successful
 			//console.log(data);
@@ -68,10 +68,11 @@ function showQuestion() {
 	// if all questions are asked -> end!
 	if (questions.length == 0) {
 		//alert("Correct answers : " + correct + "/" + count);
-        $("#questionDiv").append("<p class='question'>Result</p>");
+        $("#questionDiv").append("<p class='question'>Tulokset</p>");
         $("#questionDiv").append("<p class='result'>"+correct + "/" + count+"</p>");
 		return;
 	}
+
 	// random index 0 <-> questions.length
 	var questionIndex = Math.floor(Math.random()*(questions.length));
 	var question = questions[questionIndex];
@@ -100,9 +101,13 @@ function showQuestion() {
 			// console.log("length = " + questions.length);
 			// jump next question
 			setTimeout(showQuestion, SPEED);
+            body.css('background-image', 'url(img/Jyvaskyla_centrum.jpg)');
 		});
 		$("#questionDiv").append(answer);
+
 	}
+
+
 
 }
 

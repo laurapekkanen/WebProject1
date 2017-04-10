@@ -179,8 +179,20 @@ img.close {
 
 /*TIETOVISA*/
 
+h1, h2 {
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    font-family: 'Slabo 27px', serif;
+    /*text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);*/
+}
+
+h2 {
+    margin: 0 0 50px 0;
+}
+
 #tietovisa {
-    background: url(img/vintage-wallpaper.jpg);
+    background: url(img/party.jpg);
     background-repeat: repeat;
     height: 100vh; /*venyy ikkunan mukaan*/
 }
@@ -188,7 +200,7 @@ img.close {
 #visa {
     width: 60%;
     height: 60%;
-    margin: 150px auto;
+    margin: 100px auto;
 }
 
 #questionDiv {
@@ -210,6 +222,7 @@ img.close {
 	color:#fff;
 	padding: 20px;
     font-size: 25px;
+    text-align: center;
 }
 
 .answer {
@@ -234,13 +247,15 @@ img.close {
     padding: 10px;
 }
 
-.answer:hover {
+.answer:hover, .answer:active {
     color: #fff;
     background: #e0e0e0; /* Old browsers */
     background: -moz-linear-gradient(top, #e0e0e0 0%, #727272 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #e0e0e0 0%,#727272 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #e0e0e0 0%,#727272 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#727272',GradientType=0 ); /* IE6-9 */
+    font-size: 22px;
+    padding: 15px 5px;
 }
 
 /**/

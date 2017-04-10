@@ -1,0 +1,89 @@
+{
+	"description": "Quiz guestions",
+	"questions":[
+		{
+			"question":"Kenen patsas lakitetaan vappuisin Kirkkopuistossa?",
+			"answers": [
+				{
+					"answer":"Matti Nykäsen",
+					"right":"0"
+				},
+				{
+					"answer":"Minna Canthin",
+					"right":"1"
+				},
+				{
+					"answer":"Mauri Pekkarisen",
+					"right":"0"
+				},
+                {
+					"answer":"Alvar Aallon",
+					"right":"0"
+				}
+			]
+		},
+		{
+			"question":"Mitä saat kun tilaat grillillä taksarin?",
+			"answers": [
+				{
+					"answer":"Taksin",
+					"right":"0"
+				},
+				{
+					"answer":"Hampurilaisen",
+					"right":"0"
+				},
+				{
+					"answer":"Makkaraperunat",
+					"right":"1"
+				},
+				{
+					"answer":"Kysyviä katseita",
+					"right":"0"
+				}
+			]
+		},
+		{
+			"question":"Mikä näistä opiskelijatapahtumista järjestetään Jyväskylässä?",
+			"answers": [
+				{
+					"answer":"Eerikinkadun Appro",
+					"right":"0"
+				},
+				{
+					"answer":"Helsinginkadun Appro",
+					"right":"0"
+				},
+				{
+					"answer":"Hämeenkadun Appro",
+					"right":"0"
+				},
+                {
+					"answer":"Kauppakadun Appro",
+					"right":"1"
+				}
+			]
+		},
+        {
+			"question":"",
+			"answers": [
+				{
+					"answer":"",
+					"right":"1"
+				},
+				{
+					"answer":"",
+					"right":"0"
+				},
+				{
+					"answer":"",
+					"right":"0"
+				},
+				{
+					"answer":"",
+					"right":"0"
+				}
+			]
+		}
+	]
+}
