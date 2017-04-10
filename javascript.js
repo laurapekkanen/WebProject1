@@ -17,6 +17,8 @@ $("#trump3").click(function(e) {
     });
 });
 
+
+
 //map
 function initMap() {
         var myLatLng = {lat: 62.242603, lng: 25.747257};
@@ -33,6 +35,8 @@ function initMap() {
           title: 'Hello World!'
         });
       }
+
+
 
 //quiz
 var questions = [];		// all questions
@@ -70,7 +74,17 @@ function showQuestion() {
 		//alert("Correct answers : " + correct + "/" + count);
         $("#questionDiv").append("<p class='question'>Tulokset</p>");
         $("#questionDiv").append("<p class='result'>"+correct + "/" + count+"</p>");
-		return;
+        //result
+        if(correct <= 1) {
+          $("#questionDiv").append("<p class='result'>Taidat olla ulkopaikkakuntalainen..</p>");
+        }
+		if(correct == 2 || correct == 3 ){
+          $("#questionDiv").append("<p class='result'>Sinussa on potentiaalia</p>");
+        }
+        if(correct >= 4){
+          $("#questionDiv").append("<p class='result'>Onneksi olkoon, olet aito jyvääskyläläinen!</p>");
+        }
+        return;
 	}
 
 	// random index 0 <-> questions.length
@@ -101,13 +115,12 @@ function showQuestion() {
 			// console.log("length = " + questions.length);
 			// jump next question
 			setTimeout(showQuestion, SPEED);
-            body.css('background-image', 'url(img/.jpg)');
 		});
 		$("#questionDiv").append(answer);
-
 	}
-
 }
+
+
 
 //sound
 var audio = document.getElementByID("kohde");

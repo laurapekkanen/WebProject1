@@ -23,7 +23,7 @@
 			]
 		},
 		{
-			"question":"Mitä saat kun tilaat grillillä taksarin?",
+			"question":"Mitä saat kun tilaat Jyväskylässä grillillä taksarin?",
 			"answers": [
 				{
 					"answer":"Taksin",
@@ -65,22 +65,22 @@
 			]
 		},
         {
-			"question":"4fe",
+			"question":"Montako juomaa Kauppakadun Approilla pitää juoda, jotta saisi Laudatur merkin? ",
 			"answers": [
 				{
-					"answer":"wd",
+					"answer":"Naiset: 8, miehet: 10",
+					"right":"0"
+				},
+				{
+					"answer":"Naiset: 10, miehet: 12",
+					"right":"0"
+				},
+				{
+					"answer":"Naiset: 13, miehet: 15",
 					"right":"1"
 				},
 				{
-					"answer":"2",
-					"right":"0"
-				},
-				{
-					"answer":"t3r",
-					"right":"0"
-				},
-				{
-					"answer":"3r",
+					"answer":"Naiset: 17, miehet: 19",
 					"right":"0"
 				}
 			]
